@@ -1,0 +1,56 @@
+.questions-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.questions-container h2 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #19596d;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d0d0d0;
+    padding-bottom: 10px;
+}
+.questions-list {
+    list-style: none;
+     padding: 0;
+    margin: 0;
+}
+
+.questions-list li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d0d0d0;/*خط فاصل بين الروابط*/
+    padding-bottom: 10px;
+}
+
+
+.questions-list a {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #00796b;
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+ .i {
+    margin-right: 10px;
+    color: yellow;
+    font-size: 20px;
+}
+
+.questions-list a:hover { /*التاثير عند التاشير على الزر*/
+    background-color: #e0f7fa;
+    color: #004d40;
+    transform: translateX(10px);/*تحريك الزر عند التاشير عليه*/
+}
+
+.hover i {/*التاثير عند التاشير على الزر*/
+    color: #004d40;
+}

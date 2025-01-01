@@ -1,0 +1,28 @@
+.textarea-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  textarea {
+    width: 100%;
+    padding-right: 60px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    resize: none;
+    outline: none;
+  }
+  .posts-list {
+    margin-top: 20px;
+  }
+  
+  .post-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+ 

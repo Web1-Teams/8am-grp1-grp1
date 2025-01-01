@@ -1,0 +1,25 @@
+.rounded-button {
+    width: 220px;
+    height: 60px;
+    border-radius: 35px;
+    background-color: #19596d;
+    color: darkgrey;
+    border: none;
+    cursor: pointer;/*تغيير شكل المؤشر غند التمرير*/
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    transition: transform 0.3s ease;
+}
+
+.rounded-button i {
+    color: #19596d;
+    font-size: 20px;
+}
+
+.rounded-button:hover {
+    background-color: #e0f7fa;
+    transform: translateX(10px);
+    color: #004d40;
+}
