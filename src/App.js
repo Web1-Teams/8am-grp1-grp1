@@ -1,8 +1,8 @@
-import RightSide from './componants/Right-side';
-import NewPost  from './componants/New-Post';
-import LeftSide from './componants/Left-side';
+import RightSide from './components/Right-side';
+import NewPost  from './components/New-Post';
+import LeftSide from './components/Left-side';
 import './App.css';
- import QuestionButtons from './componants/Question-buttons';
+ import QuestionButtons from './components/Question-buttons';
 function App() {
   return (
     <div className='contenar' >
