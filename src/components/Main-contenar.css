@@ -1,0 +1,6 @@
+.main-contenar {
+    flex-basis: 50%;
+    min-width: 300px;
+    padding: 3px;
+    margin: 0;
+}

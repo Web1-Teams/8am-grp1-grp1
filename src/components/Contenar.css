@@ -1,0 +1,37 @@
+.contenar {
+    padding: 3px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+
+
+@media (max-width: 480px) {
+    .contenar {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .contenar {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 769px) {
+    .contenar {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}

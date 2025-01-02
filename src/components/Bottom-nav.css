@@ -1,0 +1,50 @@
+.bottom-nav {
+    display: none; /* تظهر للشاشات الصغيرة  */
+}
+
+@media (max-width: 480px) {
+
+    .bottom-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0; right: 0;
+        background: #19596d;
+        padding: 10px 0;
+        z-index: 999;
+    }
+    .bottom-nav a {
+        color: #fff;
+        font-size: 22px;
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .bottom-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0; right: 0;
+        background: #19596d;
+        padding: 10px 0;
+        z-index: 999;
+    }
+    .bottom-nav a {
+        color: #fff;
+        font-size: 22px;
+        text-decoration: none;
+    }
+
+}
+
+@media (min-width: 769px) {
+
+    .bottom-nav {
+        display: none;
+    }
+}
