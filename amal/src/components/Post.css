@@ -1,0 +1,94 @@
+.posting {
+    width: 100%;
+    background: white;
+
+    border-radius: 6px;
+    margin: 20px 0;
+    color: #4d4c4c;
+}
+
+.head-post {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+}
+
+.head-post i {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.post {
+    padding: 25px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+.post a {
+    color: indigo;
+    text-decoration: none;
+}
+
+.post-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.like-comment-share {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.like-comment-share .icons div {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+   
+}
+
+.like-comment-share .icons div i {
+    font-size: 28px;
+    margin-left: 28px;
+}
+
+hr {
+    color: black;
+}
+
+
+@media (max-width: 480px) {
+    .like-comment-share {
+        display: flex;
+        }
+
+    .like-comment-share .icons div {
+        margin-left: 0;
+
+
+
+    }
+    .like-comment-share .icons div i {
+        font-size: 20px;
+
+
+    }
+
+
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .like-comment-share .icons div i {
+        font-size: 22px;
+
+    }
+}
+
