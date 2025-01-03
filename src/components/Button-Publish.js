@@ -1,10 +1,10 @@
 import React from "react";
 import "./Button-Publish.css";
 
-const ButtonPublish = () => {
+const ButtonPublish = ({onClick}) => {
     return (
       
-        <button className="post-button" type="button" >
+        <button className="post-button" type="button" onClick={onClick}  >
           Publish
         </button>
     );

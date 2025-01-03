@@ -2,7 +2,7 @@ import './Post.css';
 import { useState } from 'react';
 
 
-const Post = (props,{posts}) => {
+const Post = (props) => {
 
         const [like, setLike] = useState(false);
 
@@ -23,7 +23,6 @@ const Post = (props,{posts}) => {
 
             <p className="post">
                 {props.text}
-                <a href={props.link}>Apply here</a>
             </p>
 
             <img src={props.imgp} className="post-img"/>

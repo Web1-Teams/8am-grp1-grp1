@@ -1,16 +1,18 @@
 import './New-Post.css';
 import React from "react";
-import UserInfo from "./User-Info";
+
 import PostInput from "./Post-Input";
 import PostInputLink from "./Post-Input-Link";
+import Username from "./Username";
+import { width } from '@fortawesome/free-brands-svg-icons/faAdversal';
 
+const NewPost = ({onAddPost,name}) => {
 
-const NewPost = () => {
   return (
     <div className="new-Post">
-      <UserInfo />
+      <Username name={name}  />
       <div className="post-input">
-        <PostInput />
+        <PostInput onAddPost={onAddPost} name={name} />
         <PostInputLink />
       </div>
     </div>

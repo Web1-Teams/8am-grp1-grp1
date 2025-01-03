@@ -31,9 +31,15 @@ const Jop = () => {
         }));
 
     };
+
+    const handleNewPost = (newPost) => {
+        setPosts([...posts, newPost]);
+      };
+
+
     return(
 
-            <Page posts={posts} onDelete={deletePost}/>
+            <Page posts={posts} onDelete={deletePost} onAddPost={handleNewPost} />
 
 
         )
