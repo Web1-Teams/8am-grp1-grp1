@@ -1,4 +1,4 @@
-
+/*
 import RightSide from './components/Right-side';
 import NewPost  from './components/New-Post';
 import LeftSide from './components/Left-side';
@@ -11,7 +11,7 @@ function App() {
       < RightSide/> 
     </div>
   );
-}
+}*/
 
 import React from 'react';
 

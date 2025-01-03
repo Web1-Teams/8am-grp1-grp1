@@ -2,7 +2,7 @@ import './Post.css';
 import { useState } from 'react';
 
 
-const Post = (props) => {
+const Post = (props,{posts}) => {
 
         const [like, setLike] = useState(false);
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from 'react';
 import './Navbar.css'; 
-
+import LeftSide from './Left-side';
 
 const Navbar = () => {
 
@@ -21,7 +21,7 @@ const Navbar = () => {
               <div className="toggle-sidebar" onClick={toggleSidebar}>
                   <i className="fa-solid fa-bars"></i>
                   <div className={getSidebarClass()}>
-                      <p>Sidebar </p>
+                     <p ><LeftSide/> </p>
                   </div>
               </div>
               <img src="/assert/WhatsApp%20Image%202024-11-29%20at%206.25.59%20PM.jpeg" alt="logo" className="logo" title="ITC"/>

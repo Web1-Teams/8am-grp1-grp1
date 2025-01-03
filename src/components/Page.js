@@ -7,20 +7,21 @@ import Username from "./Username";
 import React from "react";
 import Post from "./Post";
 import BottomNav from "./Bottom-nav";
-
-
-
+import RightSide from "./Right-side";
+import LeftSide from "./Left-side";
+import NewPost from "./New-Post";
 
  const Page = ({ posts, onDelete } ) => {
      return(
         <>
             <Navbar />
             <Contenar>
-
+            <LeftSide/>
                 <MainContenar>
 
 
                     <Username name="amal" />
+                   < NewPost/>
                     {posts.map((post) => (
                         <Post
                             key={post.text}
@@ -36,8 +37,9 @@ import BottomNav from "./Bottom-nav";
 
 
                 </MainContenar>
+                <RightSide/>
                   <BottomNav/>
-            </Contenar>
+                </Contenar>
 
         </>
 
