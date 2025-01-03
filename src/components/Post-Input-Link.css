@@ -1,0 +1,26 @@
+.post-input-link {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .post-input-link a {
+    color: #626262;
+    text-decoration: none;
+  }
+  
+  .i1 {
+    color: red;
+    margin-right: 3px;
+  }
+  
+  .i2{
+    color: rgb(3, 179, 56);
+    margin-right: 3px;
+  }
+  
+  .i3 {
+    color: rgb(236, 236, 8);
+    margin-right: 3px;
+  }
+  

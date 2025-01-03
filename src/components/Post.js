@@ -23,7 +23,6 @@ const Post = (props) => {
 
             <p className="post">
                 {props.text}
-                <a href={props.link}>Apply here</a>
             </p>
 
             <img src={props.imgp} className="post-img"/>

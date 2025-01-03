@@ -1,16 +1,16 @@
-/* ريست بسيط وتوحيد الخط */
+/* Reset and font uniformity */
 * {
     padding: 3px;
     margin: 0;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
-    background: rgb(241,231,231);
+    background: rgb(241, 231, 231);
 }
 
-/-----------------------------navbar-----------------------------/
-
+/* ----------------------------- Navbar ----------------------------- */
 nav {
     display: flex;
     align-items: center;
@@ -32,14 +32,14 @@ nav {
 .nav-left {
     display: flex;
     align-items: center;
-    gap: 10px; /المسافة بين العناصر/
+    gap: 10px; /* Spacing between items */
 }
 
-.toggle-sidebar{
+.toggle-sidebar {
     font-size: 24px;
     color: #fff;
     cursor: pointer;
-    display: none; /* تُظهر للموبايل  */
+    display: none; /* Show on mobile */
 }
 
 .nav-right {
@@ -58,7 +58,7 @@ nav {
     color: #fff;
     font-size: 20px;
     cursor: pointer;
-    display: none; /* تُظهر للموبايل  */
+    display: none; /* Show on mobile */
 }
 
 .search-box {
@@ -84,7 +84,6 @@ nav {
     margin: 0 5px;
 }
 
-
 .user-img img {
     border-radius: 50%;
     width: 35px;
@@ -107,7 +106,7 @@ nav {
     z-index: 2;
 }
 
-/-----------------------------------------contenar--------------------------------/
+/* ----------------------------- Container ----------------------------- */
 .contenar {
     display: flex;
     justify-content: space-between;
@@ -116,10 +115,7 @@ nav {
     position: relative;
 }
 
-
-/-----------------------------------------left-side--------------------------------/
-
-
+/* ----------------------------- Left Side ----------------------------- */
 .left-side {
     flex-basis: 20%;
     background-color: #fff;
@@ -149,14 +145,14 @@ nav {
 }
 
 .questions-list {
-    list-style: none;/تزيل العلامات بجانب القائمة/
+    list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .questions-list li {
     margin-bottom: 15px;
-    border-bottom: 1px solid #d0d0d0;/خط فاصل بين الروابط/
+    border-bottom: 1px solid #d0d0d0;
     padding-bottom: 10px;
 }
 
@@ -177,23 +173,20 @@ nav {
     font-size: 20px;
 }
 
-.questions-list a:hover {/التاثير عند التاشير على الزر/
+.questions-list a:hover {
     background-color: #e0f7fa;
     color: #004d40;
-    transform: translateX(10px);/تحريك الزر عند التاشير عليه/
+    transform: translateX(10px);
 }
 
-.questions-list a:hover i {/التاثير عند التاشير على الزر/
+.questions-list a:hover i {
     color: #004d40;
 }
 
-
-/-----------------------------------------right-side--------------------------------/
-
-
+/* ----------------------------- Right Side ----------------------------- */
 .right-side {
     display: flex;
-    background: rgb(241,231,231);
+    background: rgb(241, 231, 231);
     flex-basis: 20%;
     align-self: flex-start;
     border-radius: 6px;
@@ -203,123 +196,13 @@ nav {
     z-index: 1;
 }
 
-.center-container {
-    background: rgb(241,231,231);
-    display: grid;
-    gap: 40px;
-    justify-content: flex-end;
-}
-
-.rounded-button {
-    width: 200px;
-    height: 60px;
-    border-radius: 35px;
-    background-color: #19596d;
-    color: darkgrey;
-    border: none;
-    cursor: pointer;/تغيير شكل المؤشر غند التمرير/
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    transition: transform 0.3s ease;
-}
-
-.rounded-button i {
-    color: #19596d;
-    font-size: 20px;
-}
-
-.rounded-button:hover {
-    background-color: #e0f7fa;
-    transform: translateX(10px);
-    color: #004d40;
-}
-
-.icon-container {
-    width: 40px;
-    height: 40px;
-    background-color: darkgrey;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
-    margin-left: 10px;
-}
-
-/-------------------------------main-contenar------------------------/
+/* ----------------------------- Main Content ----------------------------- */
 .main-contenar {
     flex-basis: 50%;
     min-width: 300px;
 }
-/-------------------------------yoser-profil------------------------/
-.yoser-profil {
-    width: 98%;
-    background: white;
-    border-radius: 6px;
-    color: #626262;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-}
-/-------------------------------new-Post------------------------/
-.new-Post {
-    width: 95%;
-    background: white;
-    border-radius: 6px;
-    padding: 20px;
-    margin-top: 10px;
-}
 
-.new-Post-round2 {
-    display: flex;
-    align-items: center;
-}
-
-.new-Post-round2 img {
-    width: 45px;
-    border-radius: 50%;
-}
-
-.link-video i {
-    color: red;
-    margin-right: 3px;
-}
-
-.link-camera i {
-    color: rgb(3, 179, 56);
-    margin-right: 3px;
-}
-
-.link-smile i {
-    color: rgb(216, 216, 20);
-    margin-right: 3px;
-}
-
-.post-input {
-    padding-left: 55px;
-    padding-top: 10px;
-}
-
-.post-input textarea {
-    width: 100%;
-    outline: 0;/الغاء الخط الخارجي/
-    border: 0;
-    border-bottom: 1px solid #ccc;
-    resize: none;/تكون غير قابله للتكبير/
-}
-
-.post-input-link {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-}
-
-.post-input-link a {
-    color: #626262;
-    text-decoration: none;
-}
-/-----------------------post--------------------/
+/* ----------------------------- Post ----------------------------- */
 .posting {
     width: 100%;
     background: white;
@@ -382,16 +265,7 @@ hr {
     color: black;
 }
 
-
-/* -------------------Mobile--------------------*/
-
-
-.bottom-nav {
-    display: none; /* تظهر للشاشات الصغيرة  */
-}
-
-
-
+/* ----------------------------- Mobile ----------------------------- */
 @media (max-width: 480px) {
     .toggle-sidebar {
         display: inline-block;
@@ -407,7 +281,7 @@ hr {
         color: #fff;
     }
     .search-box.show {
-        display: flex ;
+        display: flex;
         position: absolute;
         top: 60px;
         left: 10px;
@@ -444,115 +318,15 @@ hr {
         align-items: center;
         position: fixed;
         bottom: 0;
-        left: 0; right: 0;
-        background: #19596d;
-        padding: 10px 0;
-        z-index: 999;
-    }
-    .bottom-nav a {
-        color: #fff;
-        font-size: 22px;
-        text-decoration: none;
-    }
-    .like-comment-share .icons div {
-        margin-left: 0;
-    }
-    .like-comment-share .icons div i {
-        font-size: 20px;
-    }
-}
-
-
-@media (min-width: 481px) and (max-width: 768px) {
-    .toggle-sidebar {
-        display: inline-block;
-    }
-    .nav-icons {
-        display: flex;
-    }
-    .search-toggle {
-        display: inline-block;
-    }
-    .user-img,
-    .status {
-        display: none;
-    }
-    .right-side {
-        display: none;
-    }
-    .bottom-nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        position: fixed;
-        bottom: 0;
-        left: 0; right: 0;
-        background: #19596d;
-        padding: 10px 0;
-        z-index: 999;
-    }
-    .bottom-nav a {
-        color: #fff;
-        font-size: 22px;
-        text-decoration: none;
-    }
-    .left-side {
-        transform: translateX(-100%);
-        opacity: 0;
-        position: absolute;
-        top: 55px;
         left: 0;
-        width: 200px;
+        right: 0;
+        background: #19596d;
+        padding: 10px 0;
+        z-index: 999;
     }
-    .left-side.active {
-        transform: translateX(0);
-        opacity: 1;
-        background: #fff;
-    }
-    .contenar {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-    .like-comment-share .icons div i {
+    .bottom-nav a {
+        color: #fff;
         font-size: 22px;
-    }
-}
-
-
-@media (min-width: 769px) {
-    .toggle-sidebar {
-        display: none;
-    }
-    .nav-icons {
-        display: flex;
-    }
-    .search-toggle {
-        display: none;
-    }
-    .search-box {
-        display: flex;
-    }
-    .user-img,
-    .status {
-        display: inline-block;
-    }
-    .bottom-nav {
-        display: none;
-    }
-    .right-side {
-        display: flex;
-        position: sticky;
-        top: 70px;
-    }
-    .contenar {
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 20px;
-    }
-    .left-side {
-        position: static;
-        transform: translateX(0);
-        opacity: 1;
+        text-decoration: none;
     }
 }

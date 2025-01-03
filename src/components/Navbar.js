@@ -1,20 +1,19 @@
-import React from "react";
+import React, { Children } from "react";
 import { useState } from 'react';
 import './Navbar.css'; 
-import Username from "./Username";
-import Post from "./Post";
-
+import LeftSide from './Left-side';
+import QuestionButtons from './Question-buttons';
 
 const Navbar = () => {
 
     const [isSidebarActive, setSidebarActive] = useState(false);
 
     const toggleSidebar = (event) => {
-        setSidebarActive(!isSidebarActive);
-        
+        event.preventDefault();  
+        setSidebarActive(!isSidebarActive);  // تغيير حالة الشريط الجانبي
     };
 
-    const getSidebarClass = (event) => {
+    const getSidebarClass = () => {
         return isSidebarActive ? 'left-side active' : 'left-side';
     };
 
@@ -24,9 +23,8 @@ const Navbar = () => {
               <div className="toggle-sidebar" onClick={toggleSidebar}>
                   <i className="fa-solid fa-bars"></i>
                   <div className={getSidebarClass()}>
-
+                 <LeftSide/>
                   </div>
-                  
               </div>
               <img src="/assert/WhatsApp%20Image%202024-11-29%20at%206.25.59%20PM.jpeg" alt="logo" className="logo" title="ITC"/>
           </div>
@@ -37,9 +35,6 @@ const Navbar = () => {
                   <i className="fa-regular fa-envelope" title="Messages"></i>
                   <i className="fa-solid fa-location-dot" title="location"></i>
               </div>
-              {/*<div className="search-toggle">*/}
-              {/*    <i className="fa-solid fa-magnifying-glass" title="search"></i>*/}
-              {/*</div>*/}
               <div className="search-box">
                   <input type="text" placeholder="search..." title="search"/>
                   <i className="fa-solid fa-microphone-lines" title="Voice search"></i>

@@ -1,0 +1,40 @@
+.right-side {
+    display: flex;
+  /*  background: rgb(241,231,231);*/
+    flex-basis: 20%;
+    align-self: flex-start;
+    border-radius: 6px;
+    justify-content: end;
+    min-width: 200px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.center-container {
+    background: rgb(241,231,231);
+    display: grid;
+    gap: 40px;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+@media (max-width: 480px) {
+    .right-side{
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .right-side {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .right-side {
+        display: flex;
+        position: sticky;
+        top: 70px;
+    }
+}
