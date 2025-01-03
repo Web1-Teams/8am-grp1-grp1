@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from 'react';
 import './Navbar.css'; 
+import Username from "./Username";
+import Post from "./Post";
 
 
 const Navbar = () => {
@@ -9,6 +11,7 @@ const Navbar = () => {
 
     const toggleSidebar = (event) => {
         setSidebarActive(!isSidebarActive);
+        
     };
 
     const getSidebarClass = (event) => {
@@ -21,8 +24,9 @@ const Navbar = () => {
               <div className="toggle-sidebar" onClick={toggleSidebar}>
                   <i className="fa-solid fa-bars"></i>
                   <div className={getSidebarClass()}>
-                      <p>Sidebar </p>
+
                   </div>
+                  
               </div>
               <img src="/assert/WhatsApp%20Image%202024-11-29%20at%206.25.59%20PM.jpeg" alt="logo" className="logo" title="ITC"/>
           </div>
