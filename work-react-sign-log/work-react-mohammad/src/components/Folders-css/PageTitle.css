@@ -1,0 +1,46 @@
+.title-log-in{
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: -3%;
+    margin-left: 20%;
+     color: #817e7e;
+    
+    }
+.title-Sign-up{
+    position: relative;
+    
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: -5px;
+    margin-left:5%;
+     color: #817e7e;
+     
+
+}
+
+
+
+@media  (min-width: 480px) and (max-width:1100px )   {
+    .title-Sign-up{
+      
+        font-size: 45px;
+        margin-left:8%;
+    }
+    .title-log-in{
+        font-size: 55px;
+        margin-left:25%;
+
+    }
+
+}
+
+
+
+
+
+
+    
+    
