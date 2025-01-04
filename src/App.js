@@ -12,20 +12,29 @@ function App() {
     </div>
   );
 }*/
-/*
+
+import Log_in from "./pages/Log_in";
 import Sign_up from "./pages/Sign_up";
-
-
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
+import Courses from "./pages/Courses";
+import Jop from "./pages/Jop";
+import Profile from "./pages/Profile";
+import Scholarship from "./pages/Scholarship";
+import Hoom from "./pages/Hoom";
 
 
 
 function App() {
     return (
-
-        <BrowserRouter>
+        <BrowserRouter >
             <Routes>
-                <Route path='/Login' element={<Log_in/>} />
-                <Route path='/Signup' element={<Sign_up/>} />
+                <Route path='/Login' element={<Hoom/>} />
+                <Route path='/Signup' element={<Hoom/>} />
+                <Route path='/Courses' element={<Courses/>} />
+                <Route path='/Jop' element={<Jop/>} />
+                <Route path='/Profile' element={<Profile/>} />
+                <Route path='/Scholarship' element={<Scholarship/>} />
+                <Route path='/Hoom' element={<Hoom/>} />
             </Routes>
         </BrowserRouter>
 
@@ -34,7 +43,7 @@ function App() {
 }
 
 export default App;
- */
+ /*
 
 
 import React from 'react';
@@ -50,4 +59,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App;*/

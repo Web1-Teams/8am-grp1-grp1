@@ -7,14 +7,14 @@ const Scholarship= () => {
 
     const [posts, setPosts] = useState([
         {
-            name: "jops",
+            name: "Scholarship",
             imgu: "assert/vector-flat-illustration-grayscale-avatar-600nw-2281862025.webp",
             imgp: "assert/smart.jpg",
             link: "https://forms.gle/ftVNLoQ37HtAZkyB8",
             text:" (ت                            (منح تدريبية جزئية في مجالات تكنولوجيا المعلومات و علم البرمجةIntroducing The Hope International Company, based in Jordan (Amman - Hussein Business Park), offering training programs in Information Technology and Programming.Featured Training Courses for the Month:1. PHP and Laravel (40h) 2. Python and Machine learning (60h) 3. Business Analysis (30h) 4. CCNA (60h) 5.  Ethical hacking (40h) + Cyber Security 6.  Flutter 7. ASP .NET MVC"
         },
         {
-            name: "jops",
+            name: "Scholarship",
             imgu: "assert/vector-flat-illustration-grayscale-avatar-600nw-2281862025.webp",
             imgp: "assert/scholarship2.jpg",
             link: "https://tinyurl.com/44hadn8b",
@@ -23,7 +23,7 @@ const Scholarship= () => {
 
         },
         {
-            name: "jops",
+            name: "Scholarship",
             imgu: "assert/vector-flat-illustration-grayscale-avatar-600nw-2281862025.webp",
             imgp: "assert/scholarship1.jpg",
             link: "https://tinyurl.com/4mhzr88j",
@@ -32,7 +32,7 @@ const Scholarship= () => {
 
         }
         ,{
-            name: "jops",
+            name: "Scholarship",
             imgu: "assert/vector-flat-illustration-grayscale-avatar-600nw-2281862025.webp",
             imgp: "assert/scholarship3.jpg",
             link: "https://tinyurl.com/m3fwcpbb",

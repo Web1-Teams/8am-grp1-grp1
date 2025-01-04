@@ -7,16 +7,16 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import { faBook } from '@fortawesome/free-solid-svg-icons';
-
+import { Link } from "react-router-dom";
 const RightSide = () => {
   return (
       <aside className="right-side">
           <nav className="center-container">
-            <PageButtons title="Home" icon={<FontAwesomeIcon icon={faHouse} />}/>
-            <PageButtons title="Profile" icon={<FontAwesomeIcon icon={faUser} />}/>
-            <PageButtons title="Scholarship" icon={<FontAwesomeIcon icon={faGraduationCap} />}/>
-            <PageButtons title="Jobs" icon={<FontAwesomeIcon icon={faBriefcase}  />}/>
-            <PageButtons title="Courses" icon={<FontAwesomeIcon icon={faBook}  />}/>
+            <PageButtons title="Home"  link="/Hoom" icon={<FontAwesomeIcon icon={faHouse} />}/>
+            <PageButtons title="Profile" link="/Profile" icon={<FontAwesomeIcon icon={faUser} />}/>
+            <PageButtons title="Scholarship" link="/Scholarship" icon={<FontAwesomeIcon icon={faGraduationCap}  />}/>
+            <PageButtons title="Jobs"  link="/Jop" icon={<FontAwesomeIcon icon={faBriefcase}  />}/>
+            <PageButtons title="Courses" link="/Courses"  icon={<FontAwesomeIcon icon={faBook}  />}/>
           </nav>
       </aside>
 )
