@@ -1,0 +1,169 @@
+.inputslog{
+   
+    position: relative;
+   margin-bottom: 5%;
+    width: 100%;
+padding: 10px 0;
+box-sizing: border-box;
+font-size: 16px;
+border: none;
+padding-left: 30px;
+border-bottom: 2px solid #b3b3b3;
+
+}
+
+.inputslog:focus{
+    border-bottom:5px solid #333;
+    border-radius: 10px;
+    }
+
+
+.remember{
+    
+    
+    margin-top: 10%;
+
+   
+}
+.check{
+    position:relative;
+    box-sizing: border-box;
+   
+      
+    
+    }
+
+.inputsign{
+ 
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+padding: 10px 0;
+box-sizing: border-box;
+font-size: 16px;
+border: none;
+padding-left: 30px;
+border-bottom: 2px solid #b3b3b3;
+
+}
+
+.inputsign:focus{
+    border-bottom:5px solid #333;
+    border-radius: 10px;
+    }
+   
+
+    .Gender{
+      
+        position: relative;
+        color: #333;
+        font-weight:500;
+        margin: 3% 0%;
+    font-size: 18px;
+      }
+      
+    .birthday{
+        box-sizing: border-box;
+        position: relative;
+        color: #333;
+        font-weight:500;
+        margin-top: 2%;
+    font-size: 18px;
+
+     }
+   
+     /********************/
+
+     @media (max-width:560px){
+
+.Gender{
+   
+      display: flex;
+    align-self: auto;
+    justify-content: space-between;
+    }
+     }
+/* mobile*/
+     @media  (max-width: 479px)  {
+
+        .inputsign{
+            
+           
+        padding: 10px 0;
+      
+        font-size: 20px;
+        }
+      
+        .Gender{
+           
+           
+            margin: 2% 0%;
+        font-size: 22px;
+          }
+          .birthday{
+           
+        font-size: 22px;
+    
+         }
+         /**************** login*/
+         .inputslog{
+            
+           
+            padding: 10px 0;
+          
+            font-size: 30px;
+            
+            
+            }
+         .check{
+           margin-left: 10%;
+            font-weight:600;
+ 
+            font-size: 35px;
+            padding: 10px;
+            
+            }
+            
+     }
+
+     /******************************************* ipad*/
+     @media   (min-width: 480px) and (max-width:1100px )  {
+   
+        .inputsign{
+            
+            padding: 12px 0;
+          
+            font-size: 25px;
+        }
+        
+        .Gender{
+         
+           
+            margin: 1.5% 0%;
+        font-size: 28px;
+          }
+          .birthday{
+           
+            font-size: 30px;
+        
+             }
+/**********************************login */
+.inputslog{
+            
+           
+    padding: 10px 0;
+  width: 80%;
+    font-size: 35px;
+    margin-left: 10%;
+    
+    }
+    .check{
+           
+        font-weight:500;
+
+        font-size: 25px;
+            
+        
+        }
+     }
