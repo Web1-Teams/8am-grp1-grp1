@@ -70,4 +70,6 @@ Each page includes a **left-side section** with a list of programming languages.
 
 - On the **right side**, navigation icons for switching between pages are displayed.
 - For **mobile users**, a **navbar** appears at the bottom for easy navigation. The left-side quiz menu collapses into a hamburger icon in the navbar, which toggles the visibility of the quiz list.
-- ![Alt Text]([image_url](https://github.com/Web1-Teams/8am-grp1-repo/blob/30d9f4c8aabbf49e1f91aa6e39ca559e7daeb34f/43aa73de-63b0-423a-81e8-436c5114fb6a.jpg) "Optional Title")
+![Alt Text](https://raw.githubusercontent.com/Web1-Teams/8am-grp1-repo/30d9f4c8aabbf49e1f91aa6e39ca559e7daeb34f/43aa73de-63b0-423a-81e8-436c5114fb6a.jpg "Optional Title")
+
+
