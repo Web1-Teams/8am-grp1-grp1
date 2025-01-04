@@ -70,3 +70,4 @@ Each page includes a **left-side section** with a list of programming languages.
 
 - On the **right side**, navigation icons for switching between pages are displayed.
 - For **mobile users**, a **navbar** appears at the bottom for easy navigation. The left-side quiz menu collapses into a hamburger icon in the navbar, which toggles the visibility of the quiz list.
+- ![Alt Text](image_url "Optional Title")
