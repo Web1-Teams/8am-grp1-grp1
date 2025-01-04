@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# IT Community Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**IT Community** is a platform designed to support and connect the IT community, providing an interactive environment that brings together developers, programmers, and technology enthusiasts of all levels. The website aims to promote collaborative learning and knowledge sharing through technical articles, discussion forums, and specialized training courses. It also allows members to showcase their projects and ideas. The platform features a modern and user-friendly design, ensuring an enjoyable user experience and encouraging effective interaction among the digital community.
 
-## Available Scripts
+The website contains a variety of dedicated pages that cater to the needs of the IT community. These include:
 
-In the project directory, you can run:
+- **Job Offers Page**: Members can explore IT-related job opportunities and easily apply through a post that includes a direct link.
+- **Scholarships Page**: Provides information on local and international scholarships to help users develop their academic and technical skills.
+- **Training Courses Page**: Offers various educational programs covering the latest technologies and market-required skills to enhance users' expertise and build successful careers.
+- **Community Ideas and Questions Page**: Enables users to exchange ideas, ask questions, and share advice.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Detailed Project Description
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The platform is designed to be **fully responsive**, adapting to all screen sizes.
 
-### `npm test`
+### Homepage:
+- Features a **dynamic video** showcasing the inside of a software company with employees working and students training.
+- Includes a **welcome message**, icons for login and sign-up, and an **About** button. Clicking the About button navigates to the About page, while clicking the platform logo redirects back to the homepage.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Login and Sign-Up Pages:
 
-### `npm run build`
+#### Sign-Up Page:
+Allows users to create a new account to access the platform. Required information includes:
+1. Full name
+2. Email address
+3. Password
+4. Password confirmation
+5. Gender
+6. Birthday
+7. A **button** to create an account
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Features:**
+- A warning message is displayed if the password is less than 8 characters.
+- Password confirmation must match the entered password; otherwise, a warning message is shown.
+- All required fields must be filled to successfully create an account.
+- A link to the login page is provided for easy navigation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Login Page:
+Allows users to access their accounts by providing:
+1. Email address
+2. Password
+3. A **button** to log in
+4. A link to the sign-up page if the user does not have an account.
+5. A **Forget Password** option.
+6. A "Remember Me" checkbox that toggles when clicked.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Features:**
+- If incorrect email or password is entered, an error message is displayed.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Local Storage:
+- Local storage is used for managing login and account creation, linking user data to their specific profiles.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Post-Login Features
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+After logging in, users are redirected to their **Profile Page**, where each user has a personalized space to upload their CV and showcase their academic qualifications.
 
-## Learn More
+The platform includes several dedicated pages, each serving a specific purpose for easier navigation:
+- **Job Offers Page**: Users can add or delete posts and like posts related to job opportunities.
+- **Scholarships Page**: Contains information about scholarships.
+- **Training Courses Page**: Features courses and educational resources.
+- **Community Page**: A general page where users can ask questions and share advice.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Each page includes a **left-side section** with a list of programming languages. Clicking on a language opens a related quiz.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- On the **right side**, navigation icons for switching between pages are displayed.
+- For **mobile users**, a **navbar** appears at the bottom for easy navigation. The left-side quiz menu collapses into a hamburger icon in the navbar, which toggles the visibility of the quiz list.
