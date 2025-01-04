@@ -16,11 +16,11 @@ function App() {
 import React from 'react';
 
 import Jop from "./pages/Jop";
-
+import Scholarship from "./pages/Scholarship";
 const App = () => {
   return (
       <div>
-        <Jop/>
+        <Scholarship/>
 
       </div>
   );

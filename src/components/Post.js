@@ -17,12 +17,14 @@ const Post = (props) => {
             <div className="head-post">
                 <img src={imguu} height="70"
                      width="70"/>
-                <p className="name">{props.name}</p>
+                <p className="name">{props.names}</p>   {/* تم التعديل هنا */}
                 <i className="fa-regular fa-circle-xmark" onClick={props.onDelete} ></i>
             </div>
 
             <p className="post">
                 {props.text}
+                <br/>
+                <a  target={"_blank"} href={props.link}>{props.link}</a>  {/*تم التعديل*/}
             </p>
 
             <img src={props.imgp} className="post-img"/>

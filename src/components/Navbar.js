@@ -9,7 +9,7 @@ const Navbar = () => {
     const [isSidebarActive, setSidebarActive] = useState(false);
 
     const toggleSidebar = (event) => {
-        event.preventDefault();  
+         
         setSidebarActive(!isSidebarActive);  // تغيير حالة الشريط الجانبي
     };
 
@@ -22,8 +22,26 @@ const Navbar = () => {
           <div className="nav-left">
               <div className="toggle-sidebar" onClick={toggleSidebar}>
                   <i className="fa-solid fa-bars"></i>
-                  <div className={getSidebarClass()}>
-                 <LeftSide/>
+                  <div className={getSidebarClass()}   >
+                    
+
+                     <div className="questions-container" style={{backgroundColor: "white"}}>
+                     <h2>Questions</h2>
+                     <div className="questions-list">
+                    <li><QuestionButtons title="HTML" url="https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML" /></li>
+                    <li><QuestionButtons title="CSS" url="https://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS" /></li>
+                    <li><QuestionButtons title="JavaScript"  url="https://www.w3schools.com/quiztest/quiztest.asp?qtest=JS"/></li>
+                    <li><QuestionButtons title="SQL"  url="https://www.w3schools.com/quiztest/quiztest.asp?qtest=SQL"/></li>
+                    <li><QuestionButtons title="Python"  url="https://www.w3schools.com/quiztest/quiztest.asp?qtest=PYTHON"/></li>
+                    <li><QuestionButtons title="Java"  url="https://www.w3schools.com/quiztest/quiztest.asp?qtest=JAVA"/></li>
+                    <li><QuestionButtons title="C"  url="https://www.w3schools.com/c/c_quiz.php"/></li>
+                    <li><QuestionButtons title="C++"  url="https://www.w3schools.com/cpp/cpp_quiz.asp"/></li>
+                    <li><QuestionButtons title="C#"  url="https://www.w3schools.com/cs/cs_quiz.php"/></li>
+                    <li><QuestionButtons title="React"  url="https://www.w3schools.com/react/react_quiz.asp"/></li>
+                    <li><QuestionButtons title="MySQL"  url="https://www.w3schools.com/mysql/mysql_quiz.asp"/></li>
+                    </div>
+                    </div>
+                
                   </div>
               </div>
               <img src="/assert/WhatsApp%20Image%202024-11-29%20at%206.25.59%20PM.jpeg" alt="logo" className="logo" title="ITC"/>
