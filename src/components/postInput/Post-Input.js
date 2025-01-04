@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Post-Input.css";
-import ButtonPublish from "./Button-Publish"
+import ButtonPublish from "../buttonPublish/Button-Publish"
 
 
 

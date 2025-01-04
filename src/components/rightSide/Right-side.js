@@ -1,6 +1,6 @@
 
 import './Right-side.css';
-import PageButtons from "./Page-buttons";
+import PageButtons from "../pageButtons/Page-buttons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { faHouse } from '@fortawesome/free-solid-svg-icons';

@@ -1,18 +1,18 @@
 import react from "react";
 import './Page.css';
-import Navbar from "./Navbar";
-import Contenar from "./Contenar";
-import MainContenar from "./Main-contenar";
-import Username from "./Username";
+import Navbar from "../navbar/Navbar";
+import Contenar from "../contenar/Contenar";
+import MainContenar from "../mainContenar/Main-contenar";
+import Username from "../username/Username";
 import React  from "react";
-import Post from "./Post";
-import BottomNav from "./Bottom-nav";
-import RightSide from "./Right-side";
-import LeftSide from "./Left-side";
-import NewPost from "./New-Post";
-import PostInput from "./Post-Input";
+import Post from "../post/Post";
+import BottomNav from "../bottom-nav/Bottom-nav";
+import RightSide from "../rightSide/Right-side";
+import LeftSide from "../leftSide/Left-side";
+import NewPost from "../newPost/New-Post";
+import PostInput from "../postInput/Post-Input";
 import  { useState }  from "react";
-import QuestionButtons from "./Question-buttons";
+import QuestionButtons from "../questionButtons/Question-buttons";
 
  const Page = ({ posts, onDelete ,onAddPost} ) => {
 
@@ -44,7 +44,7 @@ import QuestionButtons from "./Question-buttons";
                    < NewPost onAddPost={onAddPost} name={"amal"} />
 
                     {posts.slice().reverse().map((post) => (
-                        <Post names="amal"
+                        <Post
                             key={post.text}
                             name={post.name}
                             imgu={post.imgu}

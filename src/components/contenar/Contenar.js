@@ -1,5 +1,5 @@
 import './Contenar.css';
-import './Main-contenar';
+import '../mainContenar/Main-contenar';
 
 
 const Contenar = (props) => {

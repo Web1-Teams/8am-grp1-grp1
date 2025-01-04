@@ -36,23 +36,7 @@ function App() {
 export default App;
  */
 
-/*
-import React from 'react';
 
-import Jop from "./pages/Jop";
-import Scholarship from "./pages/Scholarship";
-const App = () => {
-  return (
-      <div>
-        <Scholarship/>
-
-      </div>
-  );
-};
-
-export default App;
-
- */
 import React from 'react';
 
 import Jop from "./pages/Jop";

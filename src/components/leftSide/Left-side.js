@@ -1,6 +1,6 @@
 import React from "react";
 import './Left-side.css';
-import QuestionButtons from "./Question-buttons";
+import QuestionButtons from "../questionButtons/Question-buttons";
 const LeftSide = (props) => {
     return (
         <aside className="left-side">

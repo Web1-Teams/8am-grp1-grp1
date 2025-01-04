@@ -1,6 +1,6 @@
 import react from "react";
 import './Page-buttons.css'
-import Icon from "./Icon";
+import Icon from "../icon/Icon";
 const PageButtons= (Props) =>{
     return(
 <button className="rounded-button">

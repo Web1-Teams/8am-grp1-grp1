@@ -1,5 +1,5 @@
 import {useState} from "react";
-import Page from "../components/Page";
+import Page from "../components/page/Page";
 
 
 
@@ -18,7 +18,7 @@ const Jop = () => {
         },
 
         {
-            name: "jops",
+            name: "itg",
             imgu: "assert/vector-flat-illustration-grayscale-avatar-600nw-2281862025.webp",
             imgp: "assert/463683108_122122977110436242_873993584305391023_n.jpg",
             link: "https://www.linkedin.com/jobs/view/4115421547",
@@ -31,7 +31,7 @@ const Jop = () => {
 
         },
         {
-            name: "jops",
+            name: "asal",
             imgu: "assert/vector-flat-illustration-grayscale-avatar-600nw-2281862025.webp",
             imgp: "assert/468282776_122128537196436242_1992385054919534528_n.jpg",
             link: "https://www.linkedin.com/jobs/view/4055107656",
@@ -45,7 +45,7 @@ const Jop = () => {
 
         },
         {
-            name: "jops",
+            name: "harri",
             imgu: "assert/vector-flat-illustration-grayscale-avatar-600nw-2281862025.webp",
             imgp: "assert/470823291_122105403602661688_2064386898240828595_n.jpg",
             link: "https://www.facebook.com/share/p/15TZp1d45E/",

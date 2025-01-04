@@ -1,8 +1,8 @@
 import React, { Children } from "react";
 import { useState } from 'react';
-import './Navbar.css'; 
-import LeftSide from './Left-side';
-import QuestionButtons from './Question-buttons';
+import './Navbar.css';
+import LeftSide from '../leftSide/Left-side';
+import QuestionButtons from '../questionButtons/Question-buttons';
 
 const Navbar = () => {
 
