@@ -33,7 +33,7 @@ const Navbar = () => {
               <div className="nav-icons">
                   <i className="fa-regular fa-bell" title="Notices"></i>
                   <i className="fa-regular fa-envelope" title="Messages"></i>
-                  <i className="fa-solid fa-location-dot" title="location"></i>
+                  <a href=""><i className="fa-solid fa-right-to-bracket"></i></a>
               </div>
               <div className="search-box">
                   <input type="text" placeholder="search..." title="search"/>
