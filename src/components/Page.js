@@ -44,7 +44,7 @@ import QuestionButtons from "./Question-buttons";
                    < NewPost onAddPost={onAddPost} name={"amal"} />
 
                     {posts.slice().reverse().map((post) => (
-                        <Post
+                        <Post names="amal"
                             key={post.text}
                             name={post.name}
                             imgu={post.imgu}

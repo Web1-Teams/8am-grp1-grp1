@@ -1,4 +1,4 @@
-  import './Post.css';
+import './Post.css';
 import { useState } from 'react';
 
 
@@ -24,7 +24,7 @@ const Post = (props) => {
             <p className="post">
                 {props.text}
                 <br/>
-                <a href={props.link}>{props.link}</a>
+                <a  target={"_blank"} href={props.link}>{props.link}</a>  {/*تم التعديل*/}
             </p>
 
             <img src={props.imgp} className="post-img"/>

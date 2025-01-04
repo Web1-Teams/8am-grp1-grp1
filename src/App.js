@@ -1,35 +1,18 @@
-
-//
- import React from 'react';
-//
-// import Jop from "./pages/Jop";
-// import Hoom from "./pages/Hoom";
-//
-// const App = () => {
-//   return (
-//       <div>
-//         <Hoom/>
-//
-//       </div>
-//   );
-// };
-//
-// export default App;
-
-
-  import logo from './logo.svg';
-
-
- import './App.css';
-
-
-
-
-
-
-
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Log_in from "./pages/Log_in";
+/*
+import RightSide from './components/Right-side';
+import NewPost  from './components/New-Post';
+import LeftSide from './components/Left-side';
+import './App.css';
+ import QuestionButtons from './components/Question-buttons';
+function App() {
+  return (
+    <div className='contenar' >
+      < NewPost />
+      < RightSide/>
+    </div>
+  );
+}*/
+/*
 import Sign_up from "./pages/Sign_up";
 
 
@@ -51,4 +34,36 @@ function App() {
 }
 
 export default App;
+ */
 
+/*
+import React from 'react';
+
+import Jop from "./pages/Jop";
+import Scholarship from "./pages/Scholarship";
+const App = () => {
+  return (
+      <div>
+        <Scholarship/>
+
+      </div>
+  );
+};
+
+export default App;
+
+ */
+import React from 'react';
+
+import Jop from "./pages/Jop";
+
+const App = () => {
+  return (
+      <div>
+        <Jop/>
+
+      </div>
+  );
+};
+
+export default App;
