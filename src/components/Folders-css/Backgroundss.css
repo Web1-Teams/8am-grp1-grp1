@@ -1,5 +1,5 @@
 body{
-    background-image: url('../../assets/Backgraound.jpg');
+    background-image: url('../../../public/assert/Backgraound.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;

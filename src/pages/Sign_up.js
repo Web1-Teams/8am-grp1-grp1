@@ -1,12 +1,12 @@
-import Inputs1 from "../Inputs/Inputs1"
-import Logo from "../Logo/Logo"
-import Textt from "../Textt/Textt"
-import "../Pages_css/Sign_up.css"
-import Radio_input from "../Inputs/Radio_input"
-import Date from "../Inputs/Date"
-import Buttons from "../Buttons/Buttons"
+import Inputs1 from "../components/Inputs/Inputs1"
+import Logo from "../components/Logo/Logo"
+import Textt from "../components/Textt/Textt"
+import "../components/Pages_css/Sign_up.css"
+import Radio_input from "../components/Inputs/Radio_input"
+import Date from "../components/Inputs/Date"
+import Buttons from "../components/Buttons/Buttons"
 import React from "react"
-import Inputpassw from "../Inputs/Input_passw"
+import Inputpassw from "../components/Inputs/Input_passw"
 
 const Sign_up=()=>{
     return(

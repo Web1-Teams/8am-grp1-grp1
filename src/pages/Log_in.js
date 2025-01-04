@@ -1,14 +1,17 @@
 
-import Inputs1 from "../Inputs/Inputs1"
+
 import React from "react"
-import "../Pages_css/Log_in.css"
-import Linkk from "../Linkk/Linkk"
-import Logo from "../Logo/Logo"
-import Buttons from "../Buttons/Buttons"
-import '../Folders-css/Backgroundss.css'
-import '../Folders-css/PageTitle.css'
-import Checkbox from "../Inputs/Cheackbox"
+import Inputs1 from "../components/Inputs/Inputs1"
+import "../components/Pages_css/Log_in.css"
+import Linkk from "../components/Linkk/Linkk"
+import Logo from "../components/Logo/Logo"
+import Buttons from "../components/Buttons/Buttons"
+import '../components/Folders-css/Backgroundss.css'
+import '../components/Folders-css/PageTitle.css'
+import Checkbox from "../components/Inputs/Cheackbox"
 import { Link } from "react-router-dom"
+
+
 
 
 
