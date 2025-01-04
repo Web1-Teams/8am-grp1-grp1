@@ -9,8 +9,7 @@ const Navbar = () => {
     const [isSidebarActive, setSidebarActive] = useState(false);
 
     const toggleSidebar = (event) => {
-        event.preventDefault();  
-        setSidebarActive(!isSidebarActive);  // تغيير حالة الشريط الجانبي
+        setSidebarActive(!isSidebarActive);
     };
 
     const getSidebarClass = () => {

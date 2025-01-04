@@ -15,11 +15,7 @@ import  { useState }  from "react";
 import QuestionButtons from "./Question-buttons";
 
  const Page = ({ posts, onDelete ,onAddPost} ) => {
-  /*  const [posts, setPosts] = useState([]);
- // دالة لإضافة منشور جديد
- /*const handleNewPost = (newPost) => {
-    setPosts([...posts, newPost]);
-  };*/
+
 
 
 

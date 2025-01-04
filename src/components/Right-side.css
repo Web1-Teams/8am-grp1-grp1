@@ -1,6 +1,6 @@
 .right-side {
     display: flex;
-  /*  background: rgb(241,231,231);*/
+
     flex-basis: 20%;
     align-self: flex-start;
     border-radius: 6px;

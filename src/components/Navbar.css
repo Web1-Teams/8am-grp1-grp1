@@ -41,12 +41,7 @@ nav {
     margin: 0 5px;
 }
 
-/*.search-toggle i {*/
-/*    color: #fff;*/
-/*    font-size: 20px;*/
-/*    cursor: pointer;*/
-/*    display: none;*/
-/*}*/
+
 
 .search-box {
     background: #efefef;
@@ -106,10 +101,7 @@ nav {
     .status {
         display: none;
     }
-    /*.search-toggle {*/
-    /*    display: inline-block;*/
-    /*    color: #fff;*/
-    /*}*/
+
     .search-box.show {
         display: flex ;
         position: absolute;
@@ -144,9 +136,7 @@ nav {
     .nav-icons {
         display: flex;
     }
-    /*.search-toggle {*/
-    /*    display: inline-block;*/
-    /*}*/
+
     .user-img,
     .status {
         display: none;
@@ -175,9 +165,7 @@ nav {
     .nav-icons {
         display: flex;
     }
-    /*.search-toggle {*/
-    /*    display: none;*/
-    /*}*/
+
     .search-box {
         display: flex;
     }
