@@ -3,7 +3,7 @@ import { useState } from 'react';
 import './Navbar.css';
 import LeftSide from '../leftSide/Left-side';
 import QuestionButtons from '../questionButtons/Question-buttons';
-
+import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     const [isSidebarActive, setSidebarActive] = useState(false);
@@ -51,7 +51,7 @@ const Navbar = () => {
               <div className="nav-icons">
                   <i className="fa-regular fa-bell" title="Notices"></i>
                   <i className="fa-regular fa-envelope" title="Messages"></i>
-                  <a href=""><i className="fa-solid fa-right-to-bracket"></i></a>
+                  <Link to="/"><i className="fa-solid fa-right-to-bracket"></i></Link>
               </div>
               <div className="search-box">
                   <input type="text" placeholder="search..." title="search"/>

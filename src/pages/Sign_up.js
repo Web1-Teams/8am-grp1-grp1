@@ -7,7 +7,7 @@ import Date from "../components/Inputs/Date"
 import Buttons from "../components/Buttons/Buttons"
 import React from "react"
 import Inputpassw from "../components/Inputs/Input_passw"
-
+import { Link } from "react-router-dom"
 const Sign_up=()=>{
     return(
     <div className="Sign-up">
@@ -19,8 +19,6 @@ const Sign_up=()=>{
 <Inputs1 Type="text" className="inputsign" placeholder="Last name" />
 <Inputs1 Type="email" className="inputsign" placeholder="Username" />
 <Inputpassw  className="inputsign" placeholder="Password" />
-
-
 
 <Radio_input className="Gender" lab1=" male"  lab2="female" />
 <Date/>

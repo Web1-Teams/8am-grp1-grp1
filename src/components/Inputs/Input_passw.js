@@ -3,6 +3,7 @@
 import "./Inputs1.css"
 import Buttons from "../Buttons/Buttons";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const PasswordFields = (props) => {
   const [password, setPassword] = useState("");
@@ -49,7 +50,7 @@ const PasswordFields = (props) => {
       <div style={{color: isMatch ? "green" : "red", marginBottom: "10px"  }} >
         {(isMatch  ? "كلمتا المرور متطابقتان" : "كلمتا المرور غير متطابقتين")}
       </div>
-      <Buttons type="submit" className="button-sign"  value="Sign up"  disabled={error||!isMatch} />
+      <Buttons type="submit" className="button-sign"  value="Sign up"  disabled={error||!isMatch}  />
     </>
   );
 };

@@ -27,10 +27,11 @@ return(
 <Inputs1 placeholder="Username" Type="email" className="inputslog" />
 <Inputs1 placeholder="Password" Type="password" className="inputslog" />
 <Buttons type="submit" className="button-log " value="Log in" />
+
 <label className="lableee">Don't have an accaount? <Link  to="/Signup"  >  register </Link> </label>
 <div className="order">
 <Checkbox  inputs="forget"/>
-<Linkk to="" className="forget"  title="Forgetassword?" />
+<Linkk to="/Hoom" className="forget"  title="Forgetassword?" />
 </div>
 </form>
 </div>
